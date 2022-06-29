@@ -47,7 +47,6 @@ def checkboard():
                 v -= 1
             else:
                 vars.append(win_setups[i][j])
-        print(v)
         if countx < 2 and counto < 2:
             countx = 0
             counto = 0
