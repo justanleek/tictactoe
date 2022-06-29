@@ -87,7 +87,6 @@ while game == 0:
     if checkpos(choice):
         tictactoe[choice] = 'X'
         checkboard()
-        print('Статус игры -- ', game)
         if game != 404:
             tictactoe[int(random.choice(vars))] = 'O'
         else:
